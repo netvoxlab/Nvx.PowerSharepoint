@@ -7,7 +7,6 @@
 $srvName="localhost"					# Заменить на имя хоста (без http:\\)
 $backupLocation="E:\bkp"        		# Расположение бекапов
 $file="aismrr_07112011_2115.bak"		# Имя развертываемого бекапа
-$zip = "c:\Program Files\7-Zip\7z.exe"	# Расположение рахиватора 7zip
 ## ПАРАМЕТРЫ ОПОВЕЩЕНИЙ
 $SMTPServer = "$srvName"				# Почтовый сервер
 $EmailFrom = "notifications@$srvName"	# От имени кого отправляется сообщение
